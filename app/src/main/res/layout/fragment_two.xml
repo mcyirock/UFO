@@ -1,0 +1,38 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="complex.digital.gangneung.festivals.TwoFragment"
+    android:orientation="vertical">
+
+    <View
+        android:layout_marginTop="@dimen/basicDp"
+        android:layout_marginBottom="@dimen/basicDp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+    <ImageView
+        android:id="@+id/two_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/basicDp"/>
+    <View
+        android:layout_marginTop="@dimen/basicDp"
+        android:layout_marginBottom="@dimen/basicDp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+
+
+    <TextView android:id="@+id/two_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Fragment One"
+        android:layout_margin="@dimen/basicDp"
+        />
+
+</LinearLayout>
+    </ScrollView>
